@@ -9,8 +9,3 @@
     overflow-y: auto;
     position: relative;
 };
-@media (min-width: 720px) {
-
-    background-color: red;
-    
-}

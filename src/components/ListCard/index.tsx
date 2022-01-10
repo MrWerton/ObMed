@@ -1,7 +1,6 @@
 import { Card } from "../Card"
 import './styles.css'
 
-import OpenIcon from '../../assets/images/open.svg'
 import HeartIcon from '../../assets/images/Heart.svg'
 import ExamIcon from '../../assets/images/Quimic.svg'
 import FinanceIcon from '../../assets/images/Money.svg'
