@@ -25,7 +25,7 @@ const InfoCard = [
         img: BandAidIcon
     },
     {
-        title: "Exames Elaboratoriais",
+        title: "Exames de Images",
         descriptionImg: "icon of stethoscope",
         img: HeartIcon
     },
@@ -40,7 +40,6 @@ export const ListCard: React.FC = ()=>{
         <div className="Container-Card">
            {InfoCard.map(card=>(
                <Card img={card.img} descriptionImg={card.descriptionImg} title={card.title}/>
-
            ))}
            <ButtonFloat/>
         </div>
