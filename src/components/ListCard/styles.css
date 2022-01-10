@@ -12,6 +12,9 @@
 }
 @media (min-width: 700px) {
     .Container-Card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 40px 60px;
         flex-direction: row;
         flex-shrink: none;
