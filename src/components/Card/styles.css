@@ -1,0 +1,24 @@
+.Card{
+    max-width: 310px;
+    width: 90%;
+    min-height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F7FE;
+    color: #76AF99;
+    font-size: 28px;
+    text-align: center;
+
+}
+.bg-img{
+    height: 70px;
+    width: 70px;
+    background-color: #76AF99;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
