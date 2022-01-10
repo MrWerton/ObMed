@@ -5,8 +5,6 @@ interface Icard{
     title: string
 }
 
-
-
 export const Card: React.FC<Icard> = ({descriptionImg,img,title})=>{
     return(
         

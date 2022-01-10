@@ -8,7 +8,6 @@ const Home: React.FC = () => {
     <IonPage className="Home">
       <Header/>
       <ListCard/>
-      
     </IonPage>
   );
 };
