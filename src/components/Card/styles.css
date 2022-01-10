@@ -11,7 +11,10 @@
     font-size: 28px;
     text-align: center;
     border-radius: 10px;
-
+    cursor: pointer;
+}
+.Card:hover{
+    filter: contrast(0.95)
 }
 
 .bg-img{
@@ -23,14 +26,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     padding: 5px;
 }
 .bg-img img{
     width: 50%;
 }
+.bg-img:hover{
+    filter: contrast(1);
+}
 .bg-img img:hover{
         transform: scale(1.5);
-      
-    
 }
